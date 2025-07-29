@@ -1,0 +1,28 @@
+{
+  "name": "icon-tasks",
+  "version": "1.0.0",
+  "description": "Icon Interview Tasks Asynchronous",
+  "main": "task1-callback.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "task1": "node task1-callback.js",
+    "task2": "node task2-async.js",
+    "task3": "node task3-promise.js",
+    "task4": "node task4-stream.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jedi0x/icon-test.git"
+  },
+  "author": "Muhammad Junaid Raza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jedi0x/icon-test/issues"
+  },
+  "homepage": "https://github.com/Jedi0x/icon-test#readme",
+  "dependencies": {
+    "async": "^3.2.6",
+    "express": "^5.1.0",
+    "rxjs": "^7.8.2"
+  }
+}
