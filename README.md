@@ -57,7 +57,7 @@ addresses.forEach(address => {
   sendRequest(url, (error, data) => {
     completed++;
     if (completed === addresses.length) {
-      renderResponse();
+      renderView();
     }
   });
 });
